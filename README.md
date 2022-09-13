@@ -2,4 +2,4 @@
 # :star2: Created by Alex Strickland and Austin Reach :star2:
 
 ---
-[Our class page]([studious-robot.herokuapp.com/](https://studious-robot.herokuapp.com/))
+[Our class page](https://studious-robot.herokuapp.com/)
