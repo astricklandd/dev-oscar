@@ -1,4 +1,4 @@
-# dev-oscar
+# dev-lab-oscar
 # :star2: Created by Alex Strickland and Austin Reach :star2:
 
 ---
