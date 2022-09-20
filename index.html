@@ -1,14 +1,11 @@
-<h1> Git Bash Commands </h1> <p>
-  </p>
-We have used several Git Bash commands in this class so far.
-To list a few: <br>
+
 <!-- - accessing the Git Bash from VSCode  -->
-- Git Salute 
+<!-- - Git Salute  -->
 - using a branch
 <!-- - downloading node/ express  -->
-- Changing the name shown Ps1 = "$;"
-- Changing working directory
-- Checking a version 
+<!-- - Changing the name shown Ps1 = "$;" -->
+<!-- - Changing working directory -->
+<!-- - Checking a version  -->
  ------------------------------------------
 1) Accessing the Git Bash from VSCode: 
 - open VSCode
@@ -28,8 +25,31 @@ To list a few: <br>
 npm -i express --save 
 - this downloads express
 
+3.5) Checking versions 
+- To check versions in the git bash: 
+--- for express, type:
+npm express -v
+--- for node, type: 
+node --version
+--- for npm, type: 
+npm --version
+
 4) Changing working directory 
-- To change working directory (preference: work from desktop)
+- To change working directory from Git Bash (preference: work from desktop)
 - for desktop, type: cd Desktop
-- to open a file in your desktop type cd Desktop/filename 
-- to go back, type: cd ../
+- to open a file in your desktop type: 
+cd Desktop/filename 
+- to go back, type: 
+cd ../
+- repeat above command as needed example: cd ../../../  
+5) changing the display shown for working directory in Git Bash
+- To change the working directory, type:
+Ps1 = "$;"
+- Where $; (whatever is inserted inside of the quotes) will be the new name displayed 
+
+6) The Git Salute from the Git Bash:
+- Type these lines of code into the git bash 
+git status
+git add filenames.ext seperatefileswithspaces.ext 
+git commit filenames.ext seperatefileswithspaces.ext -m 'Message to push to GitHub with'
+git push
